@@ -113,33 +113,23 @@
             <option>USA</option>
         </select>
         <div>
-            <label for="front">
-                <input type="radio" name="stack" id="front" checked>
-                Frontend
-            </label>
-            <label for="beck">
-                <input type="radio" name="stack" id="beck">
-                Backend
-            </label>
+            <input type="radio" class="custom-radio" name="stack" id="front" checked>
+            <label for="front">Frontend</label>
+            <input type="radio" class="custom-radio" name="stack" id="beck">
+            <label for="beck">Backend</label>
         </div>
         <fieldset>
             <legend>Favorite Technologies</legend>
-            <label for="html">
-                <input type="checkbox" name="html" id="html" checked>
-                HTML
-            </label>
-            <label for="css">
-                <input type="checkbox" name="css" id="css" checked>
-                CSS
-            </label>
-            <label for="react">
-                <input type="checkbox" name="react" id="react">
-                React
-            </label>
-            <label>
-                <input type="checkbox" name="sc">
-                Styled components
-            </label>
+
+            <input type="checkbox" class="custom-checkbox" name="html" id="html" checked>
+            <label for="html">HTML</label>
+            <input type="checkbox" class="custom-checkbox" name="css" id="css" checked>
+            <label for="css">CSS</label>
+            <input type="checkbox" class="custom-checkbox" name="react" id="react">
+            <label for="react"> React</label>
+            <input type="checkbox" class="custom-checkbox" name="sc" id="sc">
+            <label for="sc">Styled components</label>
+
         </fieldset>
         <textarea placeholder="Something else about you..."></textarea>
         <button type="submit">registration</button>
